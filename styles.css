@@ -1,0 +1,55 @@
+body{
+	background-color: mediumpurple;
+}
+#main-wrapper{
+	background-color: mistyrose;
+	height: 60%;
+	padding: 5px;
+	border-radius: 10px;
+	width: 70%;
+	margin: 100px auto;
+}
+
+.sectionone{
+	width: 50%;
+	float: left;
+}
+.sectiontwo{
+	background-color: aquamarine;
+	width: 50%;
+	float: left;
+}
+.clear{
+	clear: left;
+}
+input{
+	width: 80%;
+	padding: 10px;
+	margin: 5px 20px;
+	border-radius: 10px;
+}
+input:focus{
+	background-color: salmon;
+	color: seashell;
+	outline: none;
+}
+img{
+	width: 320px;
+	float: left;
+}
+h3{
+	color: slateblue;
+	margin: 15px;
+	font-size: 32px;
+}
+.submit{
+	background-color: slateblue;
+	width: 85%;
+	color: snow;
+	font-size: 24px;
+}
+@media screen and (max-width: 800px){
+	.sectionone, .sectiontwo{
+		width: 100%;
+	}
+}
